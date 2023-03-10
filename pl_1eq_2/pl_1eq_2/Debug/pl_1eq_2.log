@@ -1,0 +1,4 @@
+﻿  Assembling p_2registros.asm...
+ej1.obj : warning LNK4258: la directiva '/ENTRY:main@0' no es compatible con el modificador '/ENTRY:main1'; se ha omitido
+p_2registros.obj : warning LNK4258: la directiva '/ENTRY:main1@0' no es compatible con el modificador '/ENTRY:main1'; se ha omitido
+  pl_1eq_2.vcxproj -> C:\Users\Cesar\source\repos\pl_1eq_2\Debug\pl_1eq_2.exe
