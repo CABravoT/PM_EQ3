@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="macros.icn" />
     <None Include="macros.inc" />
     <None Include="P_0_plantilla.asm" />
     <None Include="P_1_TransferenciaDatos.asm" />
@@ -42,16 +41,12 @@
     <MASM Include="Ej_19_NPares.asm" />
     <MASM Include="Ej_20_Discriminante.asm" />
     <MASM Include="Ej_21_PorcentajeXdeY.asm" />
-    <MASM Include="Ej_2_U3_edad_Promedio.asm" />
-    <MASM Include="Ej_3_NaufragoSat.asm" />
     <MASM Include="Ej_4_LeerNumerosPositivos.asm" />
-    <MASM Include="Ej_4_LorenzoTMata.asm" />
     <MASM Include="Ej_5_SumNumerosPos.asm" />
-    <MASM Include="Ej_6_PuebloDesc.asm" />
     <MASM Include="Ej_6_SolicitarXyLeerMenorX.asm" />
     <MASM Include="Ej_8_EmpresaConstructora.asm" />
     <MASM Include="Ej_9_Manhattan.asm" />
-    <MASM Include="P44_msgBoxV3.asm" />
+    <MASM Include="P2_U4.asm" />
     <MASM Include="P_10_Promedio_5num.asm" />
     <MASM Include="P_11_AreaRectangulo.asm" />
     <MASM Include="P_12_IntroSaltosSinCondicionales.asm" />
@@ -60,28 +55,13 @@
     <MASM Include="P_15_ImprimirSerie.asm" />
     <MASM Include="P_16_Xalay.asm" />
     <MASM Include="P_17_Checar2Num.asm" />
-    <MASM Include="P_17_PromedioM_Salones.asm" />
     <MASM Include="P_18_LeerHasteNegativos.asm" />
     <MASM Include="P_19_IntroPila.asm" />
     <MASM Include="P_20_CicliosAnidados.asm" />
     <MASM Include="P_21_TablaMultiplicar.asm" />
     <MASM Include="P_22_TabladeMultiplicarConPila.asm" />
     <MASM Include="P_23_CiclioAnidadosConPilas.asm" />
-    <MASM Include="P_30.asm" />
-    <MASM Include="P_31.asm" />
-    <MASM Include="P_32.asm" />
-    <MASM Include="P_33.asm" />
-    <MASM Include="P_34.asm" />
-    <MASM Include="P_35.asm" />
-    <MASM Include="P_36.asm" />
-    <MASM Include="P_37.asm" />
-    <MASM Include="P_38.asm" />
     <MASM Include="P_3_EscrituraEnPantalla.asm" />
-    <MASM Include="P_40.asm" />
-    <MASM Include="P_41_leerNombre.asm" />
-    <MASM Include="P_42_msgBox.asm" />
-    <MASM Include="P_43_msgBoxV2.asm" />
-    <MASM Include="P_45_sumaConProc.asm" />
     <MASM Include="P_4_LeerDatosConsola.asm" />
     <MASM Include="P_5_ImprimeCadenaEnConsola.asm" />
     <MASM Include="P_6_Op_SUB.asm" />
@@ -152,11 +132,12 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>mainE6U3</EntryPointSymbol>
+      <EntryPointSymbol>main30</EntryPointSymbol>
       <ImportLibrary>c:/Irvine</ImportLibrary>
     </Link>
     <MASM>
       <IncludePaths>c:/Irvine</IncludePaths>
+      <AssembledCodeListingFile>$(ProjectName).lst</AssembledCodeListingFile>
     </MASM>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

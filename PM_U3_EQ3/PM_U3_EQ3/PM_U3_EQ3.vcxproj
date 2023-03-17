@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{334f202b-c3a1-4b3a-ae59-bcac292a40e8}</ProjectGuid>
+    <ProjectGuid>{33852c82-89ca-4ea5-b099-2d54d8cc25c7}</ProjectGuid>
     <RootNamespace>PMU3EQ3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -54,6 +54,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
@@ -80,7 +81,15 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <ImportLibrary>c:/Irvine</ImportLibrary>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);Irvine32.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:/Irvine</AdditionalLibraryDirectories>
     </Link>
+    <MASM>
+      <IncludePaths>C:/Irvine</IncludePaths>
+      <AssembledCodeListingFile>$(ProjectName).lst</AssembledCodeListingFile>
+    </MASM>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -126,7 +135,35 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <MASM Include="Ej_2_U3.asm" />
+    <MASM Include="Ej_3_U3.asm" />
+    <MASM Include="Ej_4_U3.asm" />
+    <MASM Include="Ej_5_U3.asm" />
+    <MASM Include="Ej_6_U3.asm" />
+    <MASM Include="P10_U3.asm" />
+    <MASM Include="P11_U3.asm" />
+    <MASM Include="P12_U3.asm" />
+    <MASM Include="P13_U3.asm" />
+    <MASM Include="P14_U3.asm" />
+    <MASM Include="P15_U3.asm" />
+    <MASM Include="P16_U3.asm" />
+    <MASM Include="P17_U3.asm" />
+    <MASM Include="P1_U3.asm" />
+    <MASM Include="P2_U3.asm" />
+    <MASM Include="P3_U3.asm" />
+    <MASM Include="P4_U3.asm" />
+    <MASM Include="P5_U3.asm" />
+    <MASM Include="P6_U3.asm" />
+    <MASM Include="P7_U3.asm" />
+    <MASM Include="P8_U3.asm" />
+    <MASM Include="P9_U3.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="macros.inc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
   </ImportGroup>
 </Project>

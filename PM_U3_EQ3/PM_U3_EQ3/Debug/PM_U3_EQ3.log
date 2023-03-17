@@ -1,0 +1,3 @@
+﻿  Assembling P1_U3.asm...
+P1_U3.obj : warning LNK4258: la directiva '/ENTRY:main@0' no es compatible con el modificador '/ENTRY:main'; se ha omitido
+  PM_U3_EQ3.vcxproj -> C:\Users\Cesar\source\repos\PM_U3_EQ3\Debug\PM_U3_EQ3.exe

@@ -1,2 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MASM Include="P1_U3.asm" />
+    <MASM Include="P2_U3.asm" />
+    <MASM Include="P3_U3.asm" />
+    <MASM Include="P4_U3.asm" />
+    <MASM Include="P5_U3.asm" />
+    <MASM Include="P6_U3.asm" />
+    <MASM Include="P7_U3.asm" />
+    <MASM Include="P8_U3.asm" />
+    <MASM Include="P9_U3.asm" />
+    <MASM Include="P10_U3.asm" />
+    <MASM Include="P11_U3.asm" />
+    <MASM Include="P12_U3.asm" />
+    <MASM Include="P13_U3.asm" />
+    <MASM Include="P14_U3.asm" />
+    <MASM Include="P15_U3.asm" />
+    <MASM Include="Ej_2_U3.asm" />
+    <MASM Include="Ej_3_U3.asm" />
+    <MASM Include="Ej_4_U3.asm" />
+    <MASM Include="Ej_5_U3.asm" />
+    <MASM Include="Ej_6_U3.asm" />
+    <MASM Include="P17_U3.asm" />
+    <MASM Include="P16_U3.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="macros.inc" />
+  </ItemGroup>
+</Project>

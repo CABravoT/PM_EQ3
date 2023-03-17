@@ -4,7 +4,6 @@
     <None Include="P_0_plantilla.asm" />
     <None Include="P_1_TransferenciaDatos.asm" />
     <None Include="P_2_IntroOpArit.asm" />
-    <None Include="macros.icn" />
     <None Include="macros.inc" />
   </ItemGroup>
   <ItemGroup>
@@ -50,25 +49,6 @@
     <MASM Include="Ej_20_Discriminante.asm" />
     <MASM Include="Ej_21_PorcentajeXdeY.asm" />
     <MASM Include="P_23_CiclioAnidadosConPilas.asm" />
-    <MASM Include="P_30.asm" />
-    <MASM Include="P_31.asm" />
-    <MASM Include="P_32.asm" />
-    <MASM Include="P_33.asm" />
-    <MASM Include="P_34.asm" />
-    <MASM Include="P_35.asm" />
-    <MASM Include="P_36.asm" />
-    <MASM Include="P_37.asm" />
-    <MASM Include="P_38.asm" />
-    <MASM Include="P_40.asm" />
-    <MASM Include="P_41_leerNombre.asm" />
-    <MASM Include="P_42_msgBox.asm" />
-    <MASM Include="P_43_msgBoxV2.asm" />
-    <MASM Include="P44_msgBoxV3.asm" />
-    <MASM Include="P_45_sumaConProc.asm" />
-    <MASM Include="Ej_2_U3_edad_Promedio.asm" />
-    <MASM Include="Ej_3_NaufragoSat.asm" />
-    <MASM Include="Ej_4_LorenzoTMata.asm" />
-    <MASM Include="Ej_6_PuebloDesc.asm" />
-    <MASM Include="P_17_PromedioM_Salones.asm" />
+    <MASM Include="P2_U4.asm" />
   </ItemGroup>
 </Project>
